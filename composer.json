@@ -1,0 +1,33 @@
+{
+    "name": "pressor/framework",
+    "description": "Wordpress as a composer dependency in the context of a Laravel appliction",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Austin Wei"
+        }
+    ],
+    "minimum-stability": "stable",
+    "repositories":[
+        {
+            "type": "composer",
+            "url": "http://wpackagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pressor\\" : "src"
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "laravel/framework": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.4",
+        "mockery/mockery": "0.9.*",
+        "unit-testing/mockery-helper": "dev-master",
+        "unit-testing/function-spy": "dev-master",
+        "unit-testing/class-spy": "dev-master"
+    }
+}

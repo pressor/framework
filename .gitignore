@@ -1,0 +1,10 @@
+## Composer
+/vendor
+composer.lock
+
+## Testing helpers
+pkg-phpunit
+
+## System files
+.DS_Store
+Thumbs.db
