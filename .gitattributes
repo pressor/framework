@@ -6,6 +6,5 @@
 tests 			export-ignore
 phpunit.xml 	export-ignore
 
-
 #Travis
 .travis.yml 	export-ignore
