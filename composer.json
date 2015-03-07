@@ -1,6 +1,7 @@
 {
     "name": "pressor/framework",
     "description": "Wordpress as a composer dependency in the context of a Laravel appliction",
+    "keywords": ["framework", "laravel", "wordpress", "pressor"],
     "license": "MIT",
     "authors": [
         {
@@ -8,17 +9,6 @@
         }
     ],
     "minimum-stability": "stable",
-    "repositories":[
-        {
-            "type": "composer",
-            "url": "http://wpackagist.org"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Pressor\\" : "src"
-        }
-    },
     "require": {
         "php": ">=5.4",
         "laravel/framework": "~5.0"
@@ -29,5 +19,10 @@
         "unit-testing/mockery-helper": "dev-master",
         "unit-testing/function-spy": "dev-master",
         "unit-testing/class-spy": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pressor\\" : "src"
+        }
     }
 }

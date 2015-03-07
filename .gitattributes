@@ -1,3 +1,10 @@
+# Git
+.gitattributes export-ignore
+.gitignore exports-ignore
+
+# Testing
 /tests export-ignore
 phpunit.xml export-ignore
+
+#Travis
 .travis.yml export-ignore
