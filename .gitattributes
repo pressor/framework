@@ -1,6 +1,6 @@
 # Git
 .gitattributes export-ignore
-.gitignore exports-ignore
+.gitignore export-ignore
 
 # Testing
 /tests export-ignore
